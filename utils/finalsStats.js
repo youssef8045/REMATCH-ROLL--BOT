@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const FILE = "./data/finalsStats.json";
+const FILE = "/data/finalsStats.json";
 
 /* ================= LOAD / SAVE ================= */
 
@@ -263,4 +263,5 @@ export function updateFinalsRivalries(teams, winnerTeamIndex) {
   });
 
   save(data);
+
 }
