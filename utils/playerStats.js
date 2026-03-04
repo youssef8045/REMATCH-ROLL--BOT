@@ -1,6 +1,6 @@
 import fs from "fs";
 
-const FILE = "./data/players.json";
+const FILE = "/data/players.json";
 
 function loadData() {
   if (!fs.existsSync(FILE)) return {};
@@ -196,4 +196,5 @@ export function updateRivalries(team1, team2, winnerTeam) {
   }
 
   saveData(data);
+
 }
